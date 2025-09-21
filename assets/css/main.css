@@ -150,7 +150,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 0.8rem;
 		line-height: 2.375;
 	}
 
@@ -3622,9 +3622,14 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
-		width: calc(100% - 4rem);
+		/* width: calc(100% - 4rem); */
+		width: 75%;
 		max-width: 72rem;
 		z-index: 2;
+	}
+
+	nav ul li a {
+		font-size: 13px !important; /* You can use px, rem, em, or other units */
 	}
 
 		#nav ul.divided li {
@@ -3759,7 +3764,8 @@ input, select, textarea {
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: 75%;
+		/* width: calc(100% - 4rem); */
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -4293,7 +4299,7 @@ input, select, textarea {
 		#footer form label,
 		#footer h3,
 		#footer p {
-			font-size: 0.8rem;
+			font-size: 0.5rem;
 		}
 
 		@media screen and (max-width: 980px) {
