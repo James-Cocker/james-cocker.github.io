@@ -154,6 +154,10 @@ input, select, textarea {
 		line-height: 2.375;
 	}
 
+	#galasa-tech-stack {
+		text-align: left;
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
