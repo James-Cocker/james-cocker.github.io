@@ -2662,6 +2662,11 @@ input, select, textarea {
 
 		}
 
+	.iframe {
+		width: 100%; 
+		aspect-ratio: 16 / 9; 
+	}
+
 	a.image {
 		overflow: hidden;
 	}
